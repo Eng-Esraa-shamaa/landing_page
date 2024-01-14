@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog Website Landing page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="styles2.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    
+
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./laptop-1.jpg" class="d-block w-100" alt="..." style="filter: opacity(0.2);">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Blog Website</h1>
+            <p>Website that retrieves blogs and News from external public apis</p>
+            <button type="button" class="btn btn-primary">Check the Website from here</button>
+          </div>
+        </div>
+        
+      </div>
+      <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>-->
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--<header class="main__hero">
+      <h1 style="text-align: center;">Blog Website</h1>
+      <p style="text-align: center;"> Website that retrieves blogs and News from external public apis</p>
+    </header>-->
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="Feature" data-nav="Feature" class="your-active-class">
+      <div class="landing__container">
+        <h2 style="color: black;">Features</h2>
+        <p style="color: black;"> List of the features of Blog Website </p>
+        <p>
+          <ul>
+            <li>Responsive Design</li>
+            
+            <li>Dynamic Content</li>
+            <li>Easy Navigation to web pages</li>
+            <li>API Integration</li>
+            <li>Mobile Friendly</li>
+          </ul>
+        </p>
+        <h4>Responsive Design:</h4>
+        <p> the website is responsive to different screens so the user can use the website from 
+          laptop or tablet or mobile without any problems.
+        </p>
+        <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <img src="./1.png" width="100%" height="260rem">
+
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./3.png" width="100%" height="260rem">
+
+        </div>
+        </div>
+        <h4>Dynamic Content:</h4>
+        
+        <p> the content of the website is dynamic so it will be updated when the original website update 
+          the content will be updated automatically in the website.</p>
+          <div class="row">
+            <img src="./blog_website_laptop.png">
+          </div>
+        <h4>Easy Navigation to web pages:</h4>
+        <div class="row">
+        <img src="./nav.png">
+      </div>
+        <p> You can go through the website very easily from the navbar which will let you know where to go just by click on the link needed.</p>
+        <h4>API Integration:</h4>
+        <p> the website uses different apis to retrieve data from different resources and show it in the website.</p>
+        <h4>Mobile Friendly:</h4>
+        <p> the website is mobile friendly so you can use it from your mobile without any problems.</p>
+        <div class="row">
+          <img src="./1.png">
+        </div>
+       <!--<p>
+          <img src="./blog-website-iphone-img.png" alt="Responsive Design" style="width: 30%; height: auto;">
+          <img src="./blog_website-tablet-img.png" alt="Responsive Design" style="width: 30%; height: auto;">
+          <img src="./blog_website_laptop.png" alt="Responsive Design" style="width: 30%; height: auto;">
+
+        </p>--> 
+      </div>
+    </section>
+
+   
+
+    <section id="section2" data-nav="About">
+      <div class="landing__container">
+        <h2 style="color: black;">About</h2>
+        <h4 style="color: black;">Description:</h4>
+        <p>Blog website is a website that uses external apis to retrieve different data and articles from different Resources.</p>
+        <p> The Website have different topics : it shares the updated news from news api and shows it in the website with user friendly design so the user 
+          can go from general news to specific news by clicking on the news he wants to read and it will redirect him to the original website of the news.</p>
+        </p>
+        <p>The type of news in my website includes : General News , Sports News, Health News , Technology News and latest BBC News .</p>
+        <p> Also i have a page used to retrieve Food Recipes blogs from spontaneous food Recipes api to enrich the information on the website.</p>
+        <p> Finally the website also hosts the latest posts from stack exchange websites to have latest technology topics.</p>
+        
+        <h4 style="color: black;">Team members:</h4>
+        <p>
+          <ul>
+            <li>Esraa Shamaa</li>
+          
+          </ul>
+          <p> linkedin : <a href="https://www.linkedin.com/in/esraa-shamaa-766b72207/" target="_blank">linkedin profile</a></p>
+          <p> Twitter : <a href="https://twitter.com/Esraashama92807" target="_blank">Twitter profile</a></p>
+          <p> Github : <a href="https://github.com/Eng-Esraa-shamaa" target="_blank"> Github Account</a></p>
+
+
+        </p>
+        <h4 style="color: black;">Github Repository :</h4>
+
+        <button type="button" class="btn btn-primary"><a href="https://github.com/Eng-Esraa-shamaa/News_Blog_website" style="color: white;" target="_blank"> Check Github Repository of the project from here </a> </button>
+        
+      </div>
+    </section>
+    <!--<section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Section 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+
+   <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>Section 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+    <section id="section5" data-nav="Section 5">
+      <div class="landing__container">
+        <h2>Section 5</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+  </main>--> 
+
+  <!-- scroll to top button -->
+  <button id="top" onclick='toTop()'>Top</button>
+ 
+  <footer class="page__footer">
+    <p>&copy Esraa Shamaa</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="app2.js"></script>
+
+</body>
+</html>
